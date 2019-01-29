@@ -1,32 +1,50 @@
 .App {
+   /*text-align: center;*/
+   background-color:#3D5A98;
+   color:white;
+ }
+body{
+  background-color: #e6eeee;
+}
+.class1 {
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.input3{
+margin-left: 58px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.color{
+  width:40%;
+}
+.color{
+  width:60%;
+}
+.color1,.color{
+  float:left;
+  border:5px;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.fbfont{
+  font-size:2.6em ;
+  margin-left: 210px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+  border-radius: 15px;
+}
+
+.align{
+  float: right;
+}
+.button1{
+  background-color: #4CAF50;
+  padding:5px 25px 5px 25px;
+  color:white;
+}
+.input1{
+  margin-left: 10px;
 }
